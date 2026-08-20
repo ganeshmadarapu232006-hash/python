@@ -4,7 +4,7 @@ class Employee(ABC):
 
     @abstractmethod
     def work(self):
-        pass
+        print("employe works")
 
 class Developer(Employee):
 
