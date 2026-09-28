@@ -1,0 +1,10 @@
+file = open("sample.txt", "r")
+data = file.read()
+
+old_word = input("Enter the word to replace: ")
+new_word = input("Enter the new word: ")
+data = data.replace(old_word, new_word)
+file = open("sample.txt", "w")
+file.write(data)
+print("Word replaced successfully.")
+file.close()
