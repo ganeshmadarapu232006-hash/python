@@ -1,0 +1,6 @@
+numbers = [1, -2, 3, -4, 5, -6]
+
+result = [i for i in numbers if i < 0]
+result += [i for i in numbers if i >= 0]
+
+print(result)
